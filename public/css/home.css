@@ -1,0 +1,27 @@
+
+.head_wrapper_home {
+    height: 348px;
+    overflow: hidden; /* anything that overflows outside the screen will be hidden*/
+    margin: 0;
+    background-image: url('../images/diego-jimenez-258120-unsplash.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.gray_layer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(60, 60, 60, 0.08);
+}
+
+
+
+
+
+

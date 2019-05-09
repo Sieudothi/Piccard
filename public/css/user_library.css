@@ -1,0 +1,33 @@
+
+
+/*Style the user_library page*/
+
+.head_user_library {
+    overflow: hidden; /* anything that overflows outside the screen will be hidden*/
+    margin: 0px;
+    /*height: 420px;*/
+    background-image: url('../images/kelli-tungay-324329-unsplash copy.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border-bottom: 1vw solid white;
+}
+
+#action_bar {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    padding: 0 30% 0 30%;
+    background-color: lightcyan;
+}
+
+#action_bar a {
+    display: inline-block;
+    margin: 0 2% 0 2%;
+    padding:3%;
+    text-decoration: none;
+    font-size: 1vw;
+    color: #8DCAFF;
+    /*background-color: #8DCAFF;*/
+    border-radius: 0.5vw;
+}

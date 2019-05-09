@@ -1,0 +1,95 @@
+/*Style the forms*/
+
+
+#form_container {
+    display: none;
+    position: fixed;
+    top: 45px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+#signin_form {
+    display: none;
+    width: 25rem;
+    margin-left:  auto;
+    margin-right: auto;
+    padding: 25px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-image: url("../images/kelli-tungay-324329-unsplash 3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#signup_form {
+    display: none;
+    width: 25rem;
+    margin-left:  auto;
+    margin-right: auto;
+    padding: 25px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+
+.form h6 {
+    width:22rem;
+    margin: 0.5em auto 0.5em auto;
+    font-size: 1.8em;
+    text-align: center;
+    color: #1761A0;
+}
+
+.label {
+    width: 22rem;
+    display: block;
+    text-align: left;
+    font-size: 1.2em;
+    margin: 5px auto;
+    color: #1761A0 ;
+}
+
+.input {
+    width: 22rem;
+    display: block;
+    padding: 10px;
+    font-size: 1em;
+    margin: 3px auto;
+    border: 2px solid #1761A0 ;
+
+}
+
+.form_checkbox {
+    width: 22rem;
+    display: inline-block;
+    margin: 8px auto;
+    color: gray();
+}
+
+
+.form_button {
+    width: 22rem;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    margin: 8px auto;
+
+}
+
+.form small {
+    width: 22rem;
+    font-size: 15px;
+    text-align: left;
+    display:block;
+    margin: 8px auto;
+}
+
+
